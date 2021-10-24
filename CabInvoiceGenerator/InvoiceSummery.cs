@@ -9,9 +9,9 @@ namespace CabInvoiceGenerator
     public class InvoiceSummery
     {
         //Decalring variables
-        private int numberOfRides;
-        private double totalFare;
-        private double averageFare;
+        public int numberOfRides;
+        public double totalFare;
+        public double averageFare;
 
         //Parameterized Constructor
         public InvoiceSummery(int numberOfRides, double totalFare)
